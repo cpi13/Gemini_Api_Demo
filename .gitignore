@@ -110,3 +110,5 @@ Desktop.ini
 # Other
 # =========================
 migrate_working_dir/
+.env
+api/.env

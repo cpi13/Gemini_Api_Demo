@@ -1,1 +1,3 @@
-final api_key = "AIzaSyAK0Zkh8nSo3y2KKVaePYGIY_rqrxQwsnM";
+import 'package:flutter_dotenv/flutter_dotenv.dart';
+
+final api_key = dotenv.env["apikey"];

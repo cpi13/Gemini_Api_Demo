@@ -5,6 +5,7 @@ import 'package:gemini_demo/web_socket_client.dart';
 
 void main() async {
   runApp(const MyApp());
+  await dotenv.load(fileName: ".env");
 }
 
 final webSocketClient = WebSocketClient(); //global instance
