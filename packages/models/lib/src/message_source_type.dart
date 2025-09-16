@@ -1,0 +1,1 @@
+enum MesageSourceType {user,model}

@@ -1,0 +1,112 @@
+# =========================
+# Flutter & Dart
+# =========================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+doc/api/
+generated_plugin_registrant.dart
+
+# Flutter build identifiers
+**/ios/Flutter/.last_build_id
+**/macos/Flutter/ephemeral/
+**/windows/flutter/ephemeral/
+**/linux/flutter/ephemeral/
+
+# Symbolication & obfuscation
+app.*.symbols
+app.*.map.json
+
+# =========================
+# Android
+# =========================
+*.apk
+*.aar
+*.ap_
+*.dex
+*.class
+*.jar
+*.keystore
+*.jks
+*.so
+android/app/release
+android/app/profile
+android/app/debug
+captures/
+.gradle/
+gradle-wrapper.jar
+gradle-wrapper.properties
+local.properties
+
+# =========================
+# iOS & Xcode
+# =========================
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.pbxuser
+*.xcuserstate
+*.xcworkspace
+*.xcscmblueprint
+DerivedData/
+Pods/
+.flutter-*
+/ios/Flutter/App.framework
+/ios/Flutter/Flutter.framework
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/ephemeral/
+/ios/.symlinks/
+/ios/Runner/GeneratedPluginRegistrant.*
+
+# CocoaPods artifacts
+/ios/Pods/
+/macos/Pods/
+Podfile.lock
+
+# =========================
+# macOS
+# =========================
+.DS_Store
+*.swp
+*.lock
+*.tmp
+*.bak
+*.old
+
+# =========================
+# Windows
+# =========================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =========================
+# Linux
+# =========================
+*~
+
+# =========================
+# IDEs & Editors
+# =========================
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+.vscode/
+
+# Xcode
+*.xcuserdatad
+*.xcuserstate
+
+# =========================
+# Other
+# =========================
+migrate_working_dir/
